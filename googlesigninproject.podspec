@@ -14,7 +14,7 @@ s.summary = "RWPickFlavor lets a user select an ice cream flavor."
 s.requires_arc = true
 
 # 2
-s.version = "1.0.0"
+s.version = "1.0.2"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
@@ -34,13 +34,13 @@ s.source = { :git => "https://github.com/manoharsinghrawat-cedcoss/googlesigninp
 
 
 # 8
-s.source_files = "googlesigninproject/**/*.{swift}"
+#s.source_files = "googlesigninproject/**/*.{swift}"
 
 s.dependency 'Firebase/Core'
 s.dependency 'Firebase/Auth'
 s.dependency 'GoogleSignIn'
 # 9
-s.resources = "googlesigninproject/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+#s.resources = "googlesigninproject/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 # 10
 s.swift_version = "5.0"
