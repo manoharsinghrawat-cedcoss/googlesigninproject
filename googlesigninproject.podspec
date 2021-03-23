@@ -35,11 +35,12 @@ s.source = { :git => "https://github.com/manoharsinghrawat-cedcoss/googlesigninp
 
 # 8
 s.source_files = "googlesigninproject/**/*.{swift}"
-s.dependency = "Firebase/Core"
- s.dependency = "Firebase/Auth"
- s.dependency = "GoogleSignIn"
+
+s.dependency 'Firebase/Core'
+s.dependency 'Firebase/Auth'
+s.dependency 'GoogleSignIn'
 # 9
-# s.resources = "googlesigninproject/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+s.resources = "googlesigninproject/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 # 10
 s.swift_version = "5.0"
